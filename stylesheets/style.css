@@ -2,6 +2,10 @@
   padding: 15px;
 }
 
+.title-bar{
+  background: #2c3840;
+}
+
 .cad-menu {
   color: #356799;
 }
@@ -32,4 +36,19 @@
 
 .cad-icon.delete{
   color: #EC5840;
+}
+
+.cad-icon.settings{
+  font-size: 18px;
+}
+.cad-icon.log{
+  font-size: 18px;
+}
+
+.cad-icon.view{
+  color: #356799;
+}
+
+.orbit{
+  padding-top:50px;
 }
