@@ -1,0 +1,35 @@
+.cad-container {
+  padding: 15px;
+}
+
+.cad-menu {
+  color: #356799;
+}
+
+.cad-menu .badge{
+  float: right;
+}
+
+.cad-menu :hover{
+  background-color: #356799;
+  color: white;
+  border-radius: 5px;
+}
+
+.cad-title {
+  color: gray;
+  display: inline-block;
+}
+
+.cad-icon {
+  font-size: 24px;
+  padding: 5px;
+}
+
+.cad-icon.edit{
+  color: #3ADB76;
+}
+
+.cad-icon.delete{
+  color: #EC5840;
+}
