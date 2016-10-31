@@ -52,3 +52,8 @@
 .orbit{
   padding-top:50px;
 }
+
+p.group-align{
+    text-align: right;
+    color: #808080;
+}
