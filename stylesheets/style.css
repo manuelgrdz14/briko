@@ -57,3 +57,19 @@ p.group-align{
     text-align: right;
     color: #808080;
 }
+
+/*Para Grafica  */
+.ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: #34495e;
+    /* Control the thikness of your lines */
+    stroke-width: 5px;
+}
+
+.ct-series-a .ct-point {
+    /* Colour of your points */
+    stroke: #2199e8;
+    /* Size of your points */
+    stroke-width: 20px;
+}
+
