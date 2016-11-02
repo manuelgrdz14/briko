@@ -2,6 +2,10 @@
   padding: 15px;
 }
 
+.cad-themes-container{
+  padding: 25px;
+}
+
 .title-bar{
   background: #2c3840;
 }
@@ -56,4 +60,21 @@
 p.group-align{
     text-align: right;
     color: #808080;
+}
+
+.cad-add-group {
+  float: right;
+  margin-right: 20px;
+  font-size: 24px;
+  color: #356799;
+}
+
+.cad-add-student {
+  font-size: 20px;
+  color: #356799;
+  padding-left: 15px;
+}
+
+.cad-accordion-title {
+  font-size: 22px;
 }
