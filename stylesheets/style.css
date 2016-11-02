@@ -93,3 +93,25 @@ p.group-align{
     /* Size of your points */
     stroke-width: 20px;
 }
+
+.cad-submit {
+  float: right;
+  margin-bottom: 0px;
+  background-color: white;
+  color: #808080;
+  border: solid 1px #CACACA;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.cad-form label{
+  color:gray;
+}
+
+.cad-form input{
+  border-radius: 5px;
+}
+
+.cad-modal-title {
+  color:gray;
+}
