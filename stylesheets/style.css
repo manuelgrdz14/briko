@@ -78,3 +78,18 @@ p.group-align{
 .cad-accordion-title {
   font-size: 22px;
 }
+
+/*Para Grafica  */
+.ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: #34495e;
+    /* Control the thikness of your lines */
+    stroke-width: 5px;
+}
+
+.ct-series-a .ct-point {
+    /* Colour of your points */
+    stroke: #2199e8;
+    /* Size of your points */
+    stroke-width: 20px;
+}

@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panel de profesores | Briko</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css" />
-    <link rel="stylesheet" href="stylesheets/style.css" />
     <link rel="stylesheet" href="vendor/foundation-icons.css" />
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css" />
   <body>
 
     <!-- Top Menu -->
@@ -146,6 +146,10 @@
             <a><i class="fi-plus cad-add-student"></i></a>
           </div>
         </div>
+          <div class="medium-9 columns">
+              <h2 class="cad-title">Comprension de Temas</h2>
+              <div class="ct-chart" style="max-height: 350px"></div>
+          </div>
     </div>
 
 <!-- Modals-->
@@ -158,12 +162,14 @@
   </button>
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.js"></script>
-    <script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.js"></script>
+        <script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="js/graf.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
 
   </body>
 </html>
