@@ -113,6 +113,18 @@ p.group-align{
   border-radius: 5px;
 }
 
+.cad-form select {
+  border-radius: 5px !important;
+}
+
 .cad-modal-title {
   color:gray;
+}
+
+.cad-submit.delete {
+  float:none;
+}
+
+.cad-submit.delete:hover{
+  background-color: #EC5840;
 }
