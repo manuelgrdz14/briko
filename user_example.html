@@ -1,0 +1,193 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel de profesores | Briko</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css" />
+    <link rel="stylesheet" href="vendor/foundation-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  <body>
+
+    <!-- Top Menu -->
+    <div class="title-bar">
+      <div class="title-bar-left">
+          <button class="menu-icon" type="button"></button>
+      </div>
+      <div class="title-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li>
+            <span class="title-bar-title">Buen dia Miguel!</span>
+            <button type="button"> <i class="fi-widget cad-icon settings"></i> </button>
+            <button type="button"> <i class="fi-page-export cad-icon log"></i> Log Out</button>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <!-- END Top Menu -->
+
+    <div class="cad-container">
+
+
+        <!-- Side menu -->
+        <div class="medium-3 columns">
+          <ul class="vertical dropdown menu cad-menu" data-dropdown-menu style="max-width: 300px;">
+            <li><a href="grupos.html">Grupos<span class="secondary badge">61</span></a></li>
+            <li><a href="grupo1.html"><i class="fi-play"></i> Grupo 1<span class="secondary badge">20</span></a></li>
+            <li><a href="grupo2.html"><i class="fi-play"></i> Grupo 2<span class="secondary badge">19</span></a></li>
+            <li><a href="grupo3.html"><i class="fi-play"></i> Grupo 3<span class="secondary badge">22</span></a></li>
+          </ul>
+          <div class="row">
+            <a data-toggle="add-group"><i class="fi-plus cad-add-group"></i></a>
+          </div>
+        </div>
+
+
+        <!-- END Side menu -->
+
+        <div class="medium-9 columns">
+          <h1 class="cad-title">Detalle del Alumno</h1>
+          <a data-toggle="edit-group"><i class="fi-pencil cad-icon edit"></i></a>
+          <a data-toggle="delete-group"><i class="fi-trash cad-icon delete"></i></a>
+
+
+
+        </div>
+          <div class="medium-9 columns">
+            <div class="medium-2 columns"><img src="boy.svg" alt="Smiley face" style="width:128px;height:128px;"></div>
+            <div class="medium-4 columns"><h4 class="cad-title">Esteban Quito</h4> <h6 class="cad-title">A01151855</h6></div>
+            <div class="medium-3 columns" style="text-align:left"><h6 class="cad-title"></h6></div>
+            <div class="medium-10 columns" style="text-align:left"><h6 class="cad-title">Grupo 2</h6></div>
+            <div class="medium-12 columns" style="text-align:left"><img src="target.gif" alt="Smiley face" style="width:540px;height:190px;"></div>
+    </div>
+
+
+
+
+
+
+<!-- Modals-->
+<div class="reveal" id="add-group" data-reveal>
+  <h2 class="cad-modal-title" style="text-align:center">Agregar grupo</h2>
+  <form class="cad-form">
+    <div class="row">
+      <label>Nombre del grupo
+        <input type="text">
+      </label>
+    </div>
+     <input type="submit" class="button cad-submit" value="Aceptar">
+</form>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="reveal" id="edit-group" data-reveal>
+  <h2 class="cad-modal-title" style="text-align:center">Editar grupo</h2>
+  <form class="cad-form">
+    <div class="row">
+      <label>Nombre del grupo
+        <input type="text" value="Grupo 1">
+      </label>
+    </div>
+     <input type="submit" class="button cad-submit" value="Aceptar">
+</form>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="reveal" id="delete-group" data-reveal>
+  <br>
+  <h3 class="cad-modal-title" style="text-align:center">¿Seguro que desea eliminar este grupo y desvincular todos sus alumnos?</h3>
+  <br>
+  <button class="button cad-submit" data-close>Aceptar</button>
+  <button class="button cad-submit delete" data-close>Cancelar</button>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="reveal" id="add-student" data-reveal>
+  <h2 class="cad-modal-title" style="text-align:center">Agregar alumno</h2>
+  <form class="cad-form">
+    <div class="row">
+      <label>Usuario
+        <input type="text">
+      </label>
+    </div>
+    <div class="row">
+      <label>Nombre del alumno
+        <input type="text">
+      </label>
+    </div>
+    <div class="row">
+      <label>Grupo
+        <select>
+          <option value="1">Grupo 1</option>
+          <option value="2">Grupo 2</option>
+          <option value="3">Grupo 3</option>
+        </select>
+      </label>
+    </div>
+     <input type="submit" class="button cad-submit" value="Aceptar">
+</form>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="reveal" id="edit-student" data-reveal>
+  <h2 class="cad-modal-title" style="text-align:center">Editar alumno</h2>
+  <form class="cad-form">
+    <div class="row">
+      <label>Usuario
+        <input type="text" value="MarinL33">
+      </label>
+    </div>
+    <div class="row">
+      <label>Nombre del alumno
+        <input type="text" value="Marin Leonardo">
+      </label>
+    </div>
+    <div class="row">
+      <label>Grupo
+        <select>
+          <option value="1" selected>Grupo 1</option>
+          <option value="2">Grupo 2</option>
+          <option value="3">Grupo 3</option>
+        </select>
+      </label>
+    </div>
+     <input type="submit" class="button cad-submit" value="Aceptar">
+</form>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="reveal" id="delete-student" data-reveal>
+  <br>
+  <h3 class="cad-modal-title" style="text-align:center">¿Seguro que desea desvincular este alumno?</h3>
+  <br>
+  <button class="button cad-submit" data-close>Aceptar</button>
+  <button class="button cad-submit delete" data-close>Cancelar</button>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.js"></script>
+        <script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="js/graf.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+
+  </body>
+</html>
