@@ -12,6 +12,7 @@
 
 .cad-menu {
   color: #356799;
+  max-width: 100% !important;
 }
 
 .cad-menu .badge{
@@ -127,4 +128,14 @@ p.group-align{
 
 .cad-submit.delete:hover{
   background-color: #EC5840;
+}
+
+.cad-user-image {
+  width: 150px;
+  padding-left: .9375rem;
+  padding-right: .9375rem;
+}
+
+.cad-user-name {
+  width: calc( 100% - 150px );
 }
