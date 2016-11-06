@@ -139,3 +139,34 @@ p.group-align{
 .cad-user-name {
   width: calc( 100% - 150px );
 }
+
+.cad-user-name .cad-title {
+  color: white !important;
+}
+
+/*clases from brikorobotics*/
+
+.posrelx {
+    position: relative;
+    left: -8%;
+}
+
+.posrelx2 {
+    position: relative;
+    left: -5%;
+}
+
+.ptextbk3 {
+    font-family: "Century";
+    font-size: 20px;
+    color: black;
+}
+
+.marginxxk {
+    margin-top: 20px !important;
+}
+
+#barloadcontainer svg {
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
