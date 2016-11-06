@@ -144,6 +144,38 @@ p.group-align{
   color: white !important;
 }
 
+.cad-card {
+  border: solid 2px;
+  border-radius: 5px;
+  max-width: 250px;
+  background-color: white;
+}
+
+.cad-card .cad-number {
+  padding: 15px;
+  font-size: 32px;
+  margin-bottom: 0px; 
+}
+
+.cad-card .cad-image {
+  max-width: 150px;
+  max-height: 87.41px;
+  padding: 15px;
+}
+
+.cad-info {
+  color: #757c80;
+  font-size: 18px;
+}
+
+.cad-not-done {
+  color: #757c80;
+}
+
+.cad-done {
+  color: #1585cf;
+}
+
 /*clases from brikorobotics*/
 
 .posrelx {
