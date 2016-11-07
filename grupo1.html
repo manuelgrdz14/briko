@@ -5,6 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panel de profesores | Briko</title>
+
+    <!-- stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css" />
     <link rel="stylesheet" href="vendor/foundation-icons.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
@@ -49,6 +51,7 @@
         <!-- END Side menu -->
 
         <div class="medium-9 columns">
+          <!-- title and status bar -->
           <h1 class="cad-title">Grupo 1</h1>
           <a data-toggle="edit-group"><i class="fi-pencil cad-icon edit"></i></a>
           <a data-toggle="delete-group"><i class="fi-trash cad-icon delete"></i></a>
@@ -58,7 +61,9 @@
               <p class="progress-meter-text">89%</p>
             </span>
           </div>
+          <!-- END title and status bar -->
 
+          <!-- student's table -->
           <table>
             <thead>
               <tr>
@@ -143,14 +148,22 @@
               
             </tbody>
           </table>
+          <!-- END student's table -->
+
+          <!-- add student button -->
           <div class="row">
             <a data-toggle="add-student"><i class="fi-plus cad-add-student"></i></a>
           </div>
+          <!-- END add student button -->
+
         </div>
-          <div class="medium-9 columns">
-              <h2 class="cad-title">Comprension de Temas</h2>
-              <div class="ct-chart" style="max-height: 350px"></div>
-          </div>
+
+        <!-- graph -->
+        <div class="medium-9 columns">
+            <h2 class="cad-title">Comprension de Temas</h2>
+            <div class="ct-chart" style="max-height: 350px"></div>
+        </div>
+        <!-- END graph -->
     </div>
 
 <!-- Modals-->
@@ -263,6 +276,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
+<!-- END Modals-->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.js"></script>
