@@ -41,7 +41,7 @@
                     <li><a href="grupo3.html"><i class="fi-play"></i> Grupo 3<span class="secondary badge">22</span></a></li>
                 </ul>
                 <div class="row">
-                  <a><i class="fi-plus cad-add-group"></i></a>
+                  <a data-toggle="add-group"><i class="fi-plus cad-add-group"></i></a>
                 </div>
 
             </div>
@@ -51,8 +51,8 @@
 
             <div class="medium-9 columns">
                 <h1 class="cad-title">Grupo 3</h1>
-                <a><i class="fi-pencil cad-icon edit"></i></a>
-                <a><i class="fi-trash cad-icon delete"></i></a>
+                <a data-toggle="edit-group"><i class="fi-pencil cad-icon edit"></i></a>
+                <a data-toggle="delete-group"><i class="fi-trash cad-icon delete"></i></a>
                 <a class="button" href="temas.html" style="float:right; margin-top:10px">Ir a temas</a>
                 <div class="warning progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
                     <span class="progress-meter" style="width: 74%">
@@ -83,8 +83,8 @@
                             <td>5</td>
                             <td>2</td>
                             <td><a><i class="fi-magnifying-glass cad-icon view"></i></a></td>
-                            <td><a><i class="fi-pencil cad-icon edit"></i></a></td>
-                            <td><a><i class="fi-trash cad-icon delete"></i></a></td>
+                            <td><a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a></td>
+                            <td><a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a></td>
                         </tr>
                         <tr>
                             <td><i class="fi-torso cad-icon user"></i> Clifton Fenton</td>
@@ -94,8 +94,8 @@
                             <td>3</td>
                             <td>2</td>
                             <td><a><i class="fi-magnifying-glass cad-icon view"></i></a></td>
-                            <td><a><i class="fi-pencil cad-icon edit"></i></a></td>
-                            <td><a><i class="fi-trash cad-icon delete"></i></a></td>
+                            <td><a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a></td>
+                            <td><a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a></td>
                         </tr>
                         <tr>
                             <td><i class="fi-torso cad-icon user"></i> Whitaker Giffard</td>
@@ -105,8 +105,8 @@
                             <td>4</td>
                             <td>3</td>
                             <td><a><i class="fi-magnifying-glass cad-icon view"></i></a></td>
-                            <td><a><i class="fi-pencil cad-icon edit"></i></a></td>
-                            <td><a><i class="fi-trash cad-icon delete"></i></a></td>
+                            <td><a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a></td>
+                            <td><a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a></td>
                         </tr>
                         <tr>
                             <td><i class="fi-torso cad-icon user"></i> Brendon Kelley</td>
@@ -116,8 +116,8 @@
                             <td>5</td>
                             <td>3</td>
                             <td><a><i class="fi-magnifying-glass cad-icon view"></i></a></td>
-                            <td><a><i class="fi-pencil cad-icon edit"></i></a></td>
-                            <td><a><i class="fi-trash cad-icon delete"></i></a></td>
+                            <td><a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a></td>
+                            <td><a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a></td>
                         </tr>
                         <tr>
                             <td><i class="fi-torso cad-icon user"></i> Colbert Kurt</td>
@@ -127,8 +127,8 @@
                             <td>5</td>
                             <td>5</td>
                             <td><a><i class="fi-magnifying-glass cad-icon view"></i></a></td>
-                            <td><a><i class="fi-pencil cad-icon edit"></i></a></td>
-                            <td><a><i class="fi-trash cad-icon delete"></i></a></td>
+                            <td><a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a></td>
+                            <td><a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a></td>
                         </tr>
                         <tr>
                             <td><i class="fi-torso cad-icon user"></i> Doug Jaiden</td>
@@ -138,14 +138,14 @@
                             <td>2</td>
                             <td>1</td>
                             <td><a><i class="fi-magnifying-glass cad-icon view"></i></a></td>
-                            <td><a><i class="fi-pencil cad-icon edit"></i></a></td>
-                            <td><a><i class="fi-trash cad-icon delete"></i></a></td>
+                            <td><a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a></td>
+                            <td><a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a></td>
                         </tr>
 
                     </tbody>
                 </table>
                 <div class="row">
-                  <a><i class="fi-plus cad-add-student"></i></a>
+                  <a data-toggle="add-student"><i class="fi-plus cad-add-student"></i></a>
                 </div>
             </div>
             
@@ -177,7 +177,7 @@
   <form class="cad-form">
     <div class="row">
       <label>Nombre del grupo
-        <input type="text" value="Grupo 1">
+        <input type="text" value="Grupo 3">
       </label>
     </div>
      <input type="submit" class="button cad-submit" value="Aceptar">
@@ -216,7 +216,7 @@
         <select>
           <option value="1">Grupo 1</option>
           <option value="2">Grupo 2</option>
-          <option value="3">Grupo 3</option>
+          <option value="3" selected>Grupo 3</option>
         </select>
       </label>
     </div>
@@ -243,9 +243,9 @@
     <div class="row">
       <label>Grupo
         <select>
-          <option value="1" selected>Grupo 1</option>
+          <option value="1">Grupo 1</option>
           <option value="2">Grupo 2</option>
-          <option value="3">Grupo 3</option>
+          <option value="3" selected>Grupo 3</option>
         </select>
       </label>
     </div>
