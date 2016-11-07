@@ -50,8 +50,8 @@
 
         <div class="medium-9 columns">
           <h1 class="cad-title">Detalle del Alumno</h1>
-          <a data-toggle="edit-group"><i class="fi-pencil cad-icon edit"></i></a>
-          <a data-toggle="delete-group"><i class="fi-trash cad-icon delete"></i></a>
+          <a data-toggle="edit-student"><i class="fi-pencil cad-icon edit"></i></a>
+          <a data-toggle="delete-student"><i class="fi-trash cad-icon delete"></i></a>
 
         </div>
           <div class="medium-9 columns">
@@ -188,72 +188,17 @@
   </button>
 </div>
 
-<div class="reveal" id="edit-group" data-reveal>
-  <h2 class="cad-modal-title" style="text-align:center">Editar grupo</h2>
-  <form class="cad-form">
-    <div class="row">
-      <label>Nombre del grupo
-        <input type="text" value="Grupo 1">
-      </label>
-    </div>
-     <input type="submit" class="button cad-submit" value="Aceptar">
-</form>
-  <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-
-<div class="reveal" id="delete-group" data-reveal>
-  <br>
-  <h3 class="cad-modal-title" style="text-align:center">¿Seguro que desea eliminar este grupo y desvincular todos sus alumnos?</h3>
-  <br>
-  <button class="button cad-submit" data-close>Aceptar</button>
-  <button class="button cad-submit delete" data-close>Cancelar</button>
-  <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-
-<div class="reveal" id="add-student" data-reveal>
-  <h2 class="cad-modal-title" style="text-align:center">Agregar alumno</h2>
-  <form class="cad-form">
-    <div class="row">
-      <label>Usuario
-        <input type="text">
-      </label>
-    </div>
-    <div class="row">
-      <label>Nombre del alumno
-        <input type="text">
-      </label>
-    </div>
-    <div class="row">
-      <label>Grupo
-        <select>
-          <option value="1">Grupo 1</option>
-          <option value="2">Grupo 2</option>
-          <option value="3">Grupo 3</option>
-        </select>
-      </label>
-    </div>
-     <input type="submit" class="button cad-submit" value="Aceptar">
-</form>
-  <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-
 <div class="reveal" id="edit-student" data-reveal>
   <h2 class="cad-modal-title" style="text-align:center">Editar alumno</h2>
   <form class="cad-form">
     <div class="row">
       <label>Usuario
-        <input type="text" value="MarinL33">
+        <input type="text" value="EsteBanquito">
       </label>
     </div>
     <div class="row">
       <label>Nombre del alumno
-        <input type="text" value="Marin Leonardo">
+        <input type="text" value="Esteban Quito">
       </label>
     </div>
     <div class="row">
@@ -288,7 +233,6 @@
         <script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/plugins/foundation.equalizer.js"></script>
         <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
-        <script src="js/graf.js"></script>
         <script>
             $(document).foundation();
         </script>
