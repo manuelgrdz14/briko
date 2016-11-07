@@ -41,7 +41,7 @@
                     <li><a href="grupo3.html"><i class="fi-play"></i> Grupo 3<span class="secondary badge">22</span></a></li>
                 </ul>
                 <div class="row">
-                  <a><i class="fi-plus cad-add-group"></i></a>
+                  <a data-toggle="add-group"><i class="fi-plus cad-add-group"></i></a>
                 </div>
             </div>
 
@@ -92,6 +92,23 @@
             </div>
             
         </div>
+
+<!-- Modals-->
+<div class="reveal" id="add-group" data-reveal>
+  <h2 class="cad-modal-title" style="text-align:center">Agregar grupo</h2>
+  <form class="cad-form">
+    <div class="row">
+      <label>Nombre del grupo
+        <input type="text">
+      </label>
+    </div>
+     <input type="submit" class="button cad-submit" value="Aceptar">
+</form>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.js"></script>
         <script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
